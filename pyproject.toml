@@ -1,0 +1,17 @@
+[project]
+name = "hybridragsolution"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.7"
+dependencies = [
+    "boto3>=1.43.93",
+    "langchain-community>=0.4.2",
+    "langchain-huggingface>=1.2.2",
+    "langchain-openai>=1.6.2",
+    "pinecone<6.0.0",
+    "pinecone-notebooks>=0.1.1",
+    "pinecone-text>=0.11.0",
+    "pypdf>=6.18.1",
+    "sentence-transformers>=6.0.1",
+]
